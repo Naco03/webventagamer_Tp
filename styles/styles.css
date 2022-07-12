@@ -1,0 +1,105 @@
+legend {
+  font-size: 3.5rem; }
+
+fieldset {
+  font-size: 2rem;
+  color: #970c0c; }
+
+.img {
+  width: 400px;
+  height: 400px; }
+
+figcaption {
+  font-size: 2rem;
+  color: #970c0c; }
+
+h4 {
+  font-size: 3.5rem;
+  color: #970c0c; }
+
+.carousel {
+  width: 500px;
+  height: 500px; }
+
+.navbar-brand {
+  color: #0f0f0f; }
+
+.navbarinicio {
+  color: #0a0a0a; }
+
+.dropdown-menu {
+  background-color: rgba(155, 76, 11, 0.534); }
+
+.link {
+  text-decoration: none;
+  box-shadow: none;
+  color: #970c0c; }
+
+.product-container {
+  width: 400px;
+  height: 400px; }
+
+p {
+  color: rgba(155, 76, 11, 0.534);
+  font-size: 2.5rem; }
+
+body {
+  background-color: rgba(155, 76, 11, 0.534);
+  display: grid;
+  grid-template-areas: 'cabecera' 'cuerpo' 'piedepagina'; }
+
+header {
+  grid-area: cabecera;
+  border: 5px solid beige; }
+
+.nav {
+  display: inline-block;
+  list-style-type: none;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding-left: 20px;
+  padding-left: 20px; }
+
+.navpadre {
+  float: left;
+  margin-right: 5%;
+  margin-left: 5%; }
+
+h1 {
+  font-size: 3.5rem;
+  color: #970c0c; }
+
+h3 {
+  font-size: 2rem;
+  color: #970c0c; }
+
+.con {
+  color: #970c0c; }
+
+.foo {
+  background-color: beige;
+  font-size: 1rem;
+  border: solid beige;
+  transition: font-size 2s;
+  color: black; }
+
+.foo:hover {
+  font-size: 1.5rem;
+  color: red; }
+
+.section {
+  padding: 10px 10px 10px 10px;
+  color: white;
+  margin-left: 10px; }
+
+.lista2 {
+  color: white; }
+
+.con {
+  color: white; }
+
+.rs {
+  color: white; }

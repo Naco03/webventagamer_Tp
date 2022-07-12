@@ -1,0 +1,25 @@
+{
+  "name": "paquetenode",
+  "version": "1.0.0",
+  "description": "un paquete de sass",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss sass/main.scss styles/styles.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Naco03/web_ventagamer_Juan_Espain.git"
+  },
+  "author": "Juan Espain",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Naco03/web_ventagamer_Juan_Espain.git/issues"
+  },
+  "homepage": "https://github.com/Naco03/web_ventagamer_Juan_Espain.git#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.16"
+  }
+}
